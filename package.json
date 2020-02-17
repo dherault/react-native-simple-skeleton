@@ -1,0 +1,38 @@
+{
+  "name": "react-native-simple-skeleton",
+  "version": "0.0.1",
+  "description": "A basic loading component for react-native",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel Skeleton.js --out-file build.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/react-native-simple-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "skeleton",
+    "loading"
+  ],
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherault/react-native-simple-skeleton/issues"
+  },
+  "homepage": "https://github.com/dherault/react-native-simple-skeleton#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.8.4"
+  }
+}
