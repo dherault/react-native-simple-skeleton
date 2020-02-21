@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-skeleton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic loading component for react-native",
   "main": "build.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "react",
     "react-native",
     "skeleton",
-    "loading"
+    "loading",
+    "loader",
+    "content-loader"
   ],
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
   "license": "MIT",
@@ -24,9 +26,8 @@
     "url": "https://github.com/dherault/react-native-simple-skeleton/issues"
   },
   "homepage": "https://github.com/dherault/react-native-simple-skeleton#readme",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+  "dependencies": {
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -34,5 +35,10 @@
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/runtime": "^7.8.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
   }
 }
